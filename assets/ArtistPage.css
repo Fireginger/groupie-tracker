@@ -1,0 +1,109 @@
+
+
+body {
+    background-image: url("../assets/image/f6.jpg");
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    color: #fffffc;
+    overflow-x: hidden;
+    background-attachment: fixed;
+}
+
+.info{
+    background: rgba(0, 0, 0, 0.329);
+
+
+}
+
+
+
+img{
+    border-radius: 20px;
+    width: 20vw;
+}
+
+
+.Title{
+    font-size: xxx-large;
+}
+
+
+.row {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* NAVBAR */
+.navbarre {
+    width: auto;
+    height: auto;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    height: 25vh;
+    margin: 0;
+}
+
+.nav2 {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1{
+    text-decoration: none;
+    color: inherit;
+    font-size: 10vh;
+    color: #ffffff;
+    text-decoration:transparent;
+}
+
+.title {
+    margin-bottom: 2vh;
+
+}
+
+
+
+
+
+
+    /* Largeur de la barre de défilement*/
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Suivi de la barre de défilement */
+    ::-webkit-scrollbar-track {
+        background: #000000;
+        border-radius: 10px;
+    }
+
+    /* barre de défilement  */
+    ::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 10px;
+    }
+
+    /* Scrollbar Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #ffffff;
+        border-radius: 10px;
+    }
